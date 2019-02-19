@@ -37,6 +37,9 @@
 		58927D82221C1BAA00900CD9 /* ChatRootForwardOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D6B221C1BAA00900CD9 /* ChatRootForwardOtherCell.m */; };
 		58927D83221C1BAA00900CD9 /* ChatRootVoiceOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D6C221C1BAA00900CD9 /* ChatRootVoiceOtherCell.xib */; };
 		58927D84221C1BAA00900CD9 /* ChatRootVoiceOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D6D221C1BAA00900CD9 /* ChatRootVoiceOtherCell.m */; };
+		58927DEB221C1D2600900CD9 /* JSQMessagesComposerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927DE5221C1D2500900CD9 /* JSQMessagesComposerTextView.m */; };
+		58927DEC221C1D2600900CD9 /* ChatRootTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927DE6221C1D2500900CD9 /* ChatRootTableView.m */; };
+		58927DED221C1D2600900CD9 /* ChatToolBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927DE8221C1D2500900CD9 /* ChatToolBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +89,12 @@
 		58927D6C221C1BAA00900CD9 /* ChatRootVoiceOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootVoiceOtherCell.xib; sourceTree = "<group>"; };
 		58927D6D221C1BAA00900CD9 /* ChatRootVoiceOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootVoiceOtherCell.m; sourceTree = "<group>"; };
 		58927D6E221C1BAA00900CD9 /* ChatRootVideoOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootVideoOtherCell.h; sourceTree = "<group>"; };
+		58927DE5221C1D2500900CD9 /* JSQMessagesComposerTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSQMessagesComposerTextView.m; sourceTree = "<group>"; };
+		58927DE6221C1D2500900CD9 /* ChatRootTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootTableView.m; sourceTree = "<group>"; };
+		58927DE7221C1D2500900CD9 /* ChatToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatToolBar.h; sourceTree = "<group>"; };
+		58927DE8221C1D2500900CD9 /* ChatToolBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatToolBar.m; sourceTree = "<group>"; };
+		58927DE9221C1D2600900CD9 /* JSQMessagesComposerTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSQMessagesComposerTextView.h; sourceTree = "<group>"; };
+		58927DEA221C1D2600900CD9 /* ChatRootTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootTableView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +127,7 @@
 		58927D31221C1B8500900CD9 /* ChatRootUI */ = {
 			isa = PBXGroup;
 			children = (
+				58927DE4221C1D1000900CD9 /* view */,
 				58927D4D221C1BAA00900CD9 /* cell */,
 				58927D32221C1B8500900CD9 /* AppDelegate.h */,
 				58927D33221C1B8500900CD9 /* AppDelegate.m */,
@@ -173,6 +183,19 @@
 				58927D6E221C1BAA00900CD9 /* ChatRootVideoOtherCell.h */,
 			);
 			path = cell;
+			sourceTree = "<group>";
+		};
+		58927DE4221C1D1000900CD9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				58927DEA221C1D2600900CD9 /* ChatRootTableView.h */,
+				58927DE6221C1D2500900CD9 /* ChatRootTableView.m */,
+				58927DE7221C1D2500900CD9 /* ChatToolBar.h */,
+				58927DE8221C1D2500900CD9 /* ChatToolBar.m */,
+				58927DE9221C1D2600900CD9 /* JSQMessagesComposerTextView.h */,
+				58927DE5221C1D2500900CD9 /* JSQMessagesComposerTextView.m */,
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,13 +286,16 @@
 				58927D7D221C1BAA00900CD9 /* ChatRootImageMineCell.m in Sources */,
 				58927D72221C1BAA00900CD9 /* ChatRootMineCell.m in Sources */,
 				58927D74221C1BAA00900CD9 /* ChatRootVideoMineCell.m in Sources */,
+				58927DEB221C1D2600900CD9 /* JSQMessagesComposerTextView.m in Sources */,
 				58927D75221C1BAA00900CD9 /* ChatRootVoiceMineCell.m in Sources */,
 				58927D82221C1BAA00900CD9 /* ChatRootForwardOtherCell.m in Sources */,
+				58927DED221C1D2600900CD9 /* ChatToolBar.m in Sources */,
 				58927D42221C1B8600900CD9 /* main.m in Sources */,
 				58927D4B221C1B9700900CD9 /* ChatRootViewController.m in Sources */,
 				58927D80221C1BAA00900CD9 /* ChatRootOtherCell.m in Sources */,
 				58927D7C221C1BAA00900CD9 /* ChatRootVideoOtherCell.m in Sources */,
 				58927D7B221C1BAA00900CD9 /* ChatRootSysCell.m in Sources */,
+				58927DEC221C1D2600900CD9 /* ChatRootTableView.m in Sources */,
 				58927D79221C1BAA00900CD9 /* ChatRootForwardMineCell.m in Sources */,
 				58927D34221C1B8500900CD9 /* AppDelegate.m in Sources */,
 			);
