@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		58927D34221C1B8500900CD9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D33221C1B8500900CD9 /* AppDelegate.m */; };
+		58927D37221C1B8500900CD9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D36221C1B8500900CD9 /* ViewController.m */; };
+		58927D3A221C1B8500900CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58927D38221C1B8500900CD9 /* Main.storyboard */; };
+		58927D3C221C1B8600900CD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58927D3B221C1B8600900CD9 /* Assets.xcassets */; };
+		58927D3F221C1B8600900CD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58927D3D221C1B8600900CD9 /* LaunchScreen.storyboard */; };
+		58927D42221C1B8600900CD9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D41221C1B8600900CD9 /* main.m */; };
+		58927D4B221C1B9700900CD9 /* ChatRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D48221C1B9700900CD9 /* ChatRootViewController.m */; };
+		58927D4C221C1B9700900CD9 /* ChatRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D4A221C1B9700900CD9 /* ChatRootViewController.xib */; };
+		58927D6F221C1BAA00900CD9 /* ChatRootImageOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D4E221C1BAA00900CD9 /* ChatRootImageOtherCell.xib */; };
+		58927D70221C1BAA00900CD9 /* ChatRootSysCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D4F221C1BAA00900CD9 /* ChatRootSysCell.xib */; };
+		58927D71221C1BAA00900CD9 /* ChatRootVideoMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D51221C1BAA00900CD9 /* ChatRootVideoMineCell.xib */; };
+		58927D72221C1BAA00900CD9 /* ChatRootMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D53221C1BAA00900CD9 /* ChatRootMineCell.m */; };
+		58927D73221C1BAA00900CD9 /* ChatRootOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D54221C1BAA00900CD9 /* ChatRootOtherCell.xib */; };
+		58927D74221C1BAA00900CD9 /* ChatRootVideoMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D55221C1BAA00900CD9 /* ChatRootVideoMineCell.m */; };
+		58927D75221C1BAA00900CD9 /* ChatRootVoiceMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D57221C1BAA00900CD9 /* ChatRootVoiceMineCell.m */; };
+		58927D76221C1BAA00900CD9 /* ChatRootForwardOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D58221C1BAA00900CD9 /* ChatRootForwardOtherCell.xib */; };
+		58927D77221C1BAA00900CD9 /* ChatRootVoiceMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D59221C1BAA00900CD9 /* ChatRootVoiceMineCell.xib */; };
+		58927D78221C1BAA00900CD9 /* ChatRootVideoOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D5A221C1BAA00900CD9 /* ChatRootVideoOtherCell.xib */; };
+		58927D79221C1BAA00900CD9 /* ChatRootForwardMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D5C221C1BAA00900CD9 /* ChatRootForwardMineCell.m */; };
+		58927D7A221C1BAA00900CD9 /* ChatRootForwardMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D5D221C1BAA00900CD9 /* ChatRootForwardMineCell.xib */; };
+		58927D7B221C1BAA00900CD9 /* ChatRootSysCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D5E221C1BAA00900CD9 /* ChatRootSysCell.m */; };
+		58927D7C221C1BAA00900CD9 /* ChatRootVideoOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D5F221C1BAA00900CD9 /* ChatRootVideoOtherCell.m */; };
+		58927D7D221C1BAA00900CD9 /* ChatRootImageMineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D61221C1BAA00900CD9 /* ChatRootImageMineCell.m */; };
+		58927D7E221C1BAA00900CD9 /* ChatRootImageOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D63221C1BAA00900CD9 /* ChatRootImageOtherCell.m */; };
+		58927D7F221C1BAA00900CD9 /* ChatRootMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D65221C1BAA00900CD9 /* ChatRootMineCell.xib */; };
+		58927D80221C1BAA00900CD9 /* ChatRootOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D67221C1BAA00900CD9 /* ChatRootOtherCell.m */; };
+		58927D81221C1BAA00900CD9 /* ChatRootImageMineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D68221C1BAA00900CD9 /* ChatRootImageMineCell.xib */; };
+		58927D82221C1BAA00900CD9 /* ChatRootForwardOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D6B221C1BAA00900CD9 /* ChatRootForwardOtherCell.m */; };
+		58927D83221C1BAA00900CD9 /* ChatRootVoiceOtherCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58927D6C221C1BAA00900CD9 /* ChatRootVoiceOtherCell.xib */; };
+		58927D84221C1BAA00900CD9 /* ChatRootVoiceOtherCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58927D6D221C1BAA00900CD9 /* ChatRootVoiceOtherCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		58927D2F221C1B8500900CD9 /* ChatRootUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatRootUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58927D32221C1B8500900CD9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		58927D33221C1B8500900CD9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		58927D35221C1B8500900CD9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		58927D36221C1B8500900CD9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		58927D39221C1B8500900CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58927D3B221C1B8600900CD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58927D3E221C1B8600900CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58927D40221C1B8600900CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58927D41221C1B8600900CD9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		58927D48221C1B9700900CD9 /* ChatRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootViewController.m; sourceTree = "<group>"; };
+		58927D49221C1B9700900CD9 /* ChatRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootViewController.h; sourceTree = "<group>"; };
+		58927D4A221C1B9700900CD9 /* ChatRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootViewController.xib; sourceTree = "<group>"; };
+		58927D4E221C1BAA00900CD9 /* ChatRootImageOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootImageOtherCell.xib; sourceTree = "<group>"; };
+		58927D4F221C1BAA00900CD9 /* ChatRootSysCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootSysCell.xib; sourceTree = "<group>"; };
+		58927D50221C1BAA00900CD9 /* ChatRootImageOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootImageOtherCell.h; sourceTree = "<group>"; };
+		58927D51221C1BAA00900CD9 /* ChatRootVideoMineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootVideoMineCell.xib; sourceTree = "<group>"; };
+		58927D52221C1BAA00900CD9 /* ChatRootImageMineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootImageMineCell.h; sourceTree = "<group>"; };
+		58927D53221C1BAA00900CD9 /* ChatRootMineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootMineCell.m; sourceTree = "<group>"; };
+		58927D54221C1BAA00900CD9 /* ChatRootOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootOtherCell.xib; sourceTree = "<group>"; };
+		58927D55221C1BAA00900CD9 /* ChatRootVideoMineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootVideoMineCell.m; sourceTree = "<group>"; };
+		58927D56221C1BAA00900CD9 /* ChatRootOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootOtherCell.h; sourceTree = "<group>"; };
+		58927D57221C1BAA00900CD9 /* ChatRootVoiceMineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootVoiceMineCell.m; sourceTree = "<group>"; };
+		58927D58221C1BAA00900CD9 /* ChatRootForwardOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootForwardOtherCell.xib; sourceTree = "<group>"; };
+		58927D59221C1BAA00900CD9 /* ChatRootVoiceMineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootVoiceMineCell.xib; sourceTree = "<group>"; };
+		58927D5A221C1BAA00900CD9 /* ChatRootVideoOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootVideoOtherCell.xib; sourceTree = "<group>"; };
+		58927D5B221C1BAA00900CD9 /* ChatRootForwardOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootForwardOtherCell.h; sourceTree = "<group>"; };
+		58927D5C221C1BAA00900CD9 /* ChatRootForwardMineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootForwardMineCell.m; sourceTree = "<group>"; };
+		58927D5D221C1BAA00900CD9 /* ChatRootForwardMineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootForwardMineCell.xib; sourceTree = "<group>"; };
+		58927D5E221C1BAA00900CD9 /* ChatRootSysCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootSysCell.m; sourceTree = "<group>"; };
+		58927D5F221C1BAA00900CD9 /* ChatRootVideoOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootVideoOtherCell.m; sourceTree = "<group>"; };
+		58927D60221C1BAA00900CD9 /* ChatRootVoiceOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootVoiceOtherCell.h; sourceTree = "<group>"; };
+		58927D61221C1BAA00900CD9 /* ChatRootImageMineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootImageMineCell.m; sourceTree = "<group>"; };
+		58927D62221C1BAA00900CD9 /* ChatRootMineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootMineCell.h; sourceTree = "<group>"; };
+		58927D63221C1BAA00900CD9 /* ChatRootImageOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootImageOtherCell.m; sourceTree = "<group>"; };
+		58927D64221C1BAA00900CD9 /* ChatRootVoiceMineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootVoiceMineCell.h; sourceTree = "<group>"; };
+		58927D65221C1BAA00900CD9 /* ChatRootMineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootMineCell.xib; sourceTree = "<group>"; };
+		58927D66221C1BAA00900CD9 /* ChatRootVideoMineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootVideoMineCell.h; sourceTree = "<group>"; };
+		58927D67221C1BAA00900CD9 /* ChatRootOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootOtherCell.m; sourceTree = "<group>"; };
+		58927D68221C1BAA00900CD9 /* ChatRootImageMineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootImageMineCell.xib; sourceTree = "<group>"; };
+		58927D69221C1BAA00900CD9 /* ChatRootSysCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootSysCell.h; sourceTree = "<group>"; };
+		58927D6A221C1BAA00900CD9 /* ChatRootForwardMineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootForwardMineCell.h; sourceTree = "<group>"; };
+		58927D6B221C1BAA00900CD9 /* ChatRootForwardOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootForwardOtherCell.m; sourceTree = "<group>"; };
+		58927D6C221C1BAA00900CD9 /* ChatRootVoiceOtherCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatRootVoiceOtherCell.xib; sourceTree = "<group>"; };
+		58927D6D221C1BAA00900CD9 /* ChatRootVoiceOtherCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatRootVoiceOtherCell.m; sourceTree = "<group>"; };
+		58927D6E221C1BAA00900CD9 /* ChatRootVideoOtherCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatRootVideoOtherCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58927D2C221C1B8500900CD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58927D26221C1B8500900CD9 = {
+			isa = PBXGroup;
+			children = (
+				58927D31221C1B8500900CD9 /* ChatRootUI */,
+				58927D30221C1B8500900CD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		58927D30221C1B8500900CD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58927D2F221C1B8500900CD9 /* ChatRootUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58927D31221C1B8500900CD9 /* ChatRootUI */ = {
+			isa = PBXGroup;
+			children = (
+				58927D4D221C1BAA00900CD9 /* cell */,
+				58927D32221C1B8500900CD9 /* AppDelegate.h */,
+				58927D33221C1B8500900CD9 /* AppDelegate.m */,
+				58927D35221C1B8500900CD9 /* ViewController.h */,
+				58927D36221C1B8500900CD9 /* ViewController.m */,
+				58927D49221C1B9700900CD9 /* ChatRootViewController.h */,
+				58927D48221C1B9700900CD9 /* ChatRootViewController.m */,
+				58927D4A221C1B9700900CD9 /* ChatRootViewController.xib */,
+				58927D38221C1B8500900CD9 /* Main.storyboard */,
+				58927D3B221C1B8600900CD9 /* Assets.xcassets */,
+				58927D3D221C1B8600900CD9 /* LaunchScreen.storyboard */,
+				58927D40221C1B8600900CD9 /* Info.plist */,
+				58927D41221C1B8600900CD9 /* main.m */,
+			);
+			path = ChatRootUI;
+			sourceTree = "<group>";
+		};
+		58927D4D221C1BAA00900CD9 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				58927D4E221C1BAA00900CD9 /* ChatRootImageOtherCell.xib */,
+				58927D4F221C1BAA00900CD9 /* ChatRootSysCell.xib */,
+				58927D50221C1BAA00900CD9 /* ChatRootImageOtherCell.h */,
+				58927D51221C1BAA00900CD9 /* ChatRootVideoMineCell.xib */,
+				58927D52221C1BAA00900CD9 /* ChatRootImageMineCell.h */,
+				58927D53221C1BAA00900CD9 /* ChatRootMineCell.m */,
+				58927D54221C1BAA00900CD9 /* ChatRootOtherCell.xib */,
+				58927D55221C1BAA00900CD9 /* ChatRootVideoMineCell.m */,
+				58927D56221C1BAA00900CD9 /* ChatRootOtherCell.h */,
+				58927D57221C1BAA00900CD9 /* ChatRootVoiceMineCell.m */,
+				58927D58221C1BAA00900CD9 /* ChatRootForwardOtherCell.xib */,
+				58927D59221C1BAA00900CD9 /* ChatRootVoiceMineCell.xib */,
+				58927D5A221C1BAA00900CD9 /* ChatRootVideoOtherCell.xib */,
+				58927D5B221C1BAA00900CD9 /* ChatRootForwardOtherCell.h */,
+				58927D5C221C1BAA00900CD9 /* ChatRootForwardMineCell.m */,
+				58927D5D221C1BAA00900CD9 /* ChatRootForwardMineCell.xib */,
+				58927D5E221C1BAA00900CD9 /* ChatRootSysCell.m */,
+				58927D5F221C1BAA00900CD9 /* ChatRootVideoOtherCell.m */,
+				58927D60221C1BAA00900CD9 /* ChatRootVoiceOtherCell.h */,
+				58927D61221C1BAA00900CD9 /* ChatRootImageMineCell.m */,
+				58927D62221C1BAA00900CD9 /* ChatRootMineCell.h */,
+				58927D63221C1BAA00900CD9 /* ChatRootImageOtherCell.m */,
+				58927D64221C1BAA00900CD9 /* ChatRootVoiceMineCell.h */,
+				58927D65221C1BAA00900CD9 /* ChatRootMineCell.xib */,
+				58927D66221C1BAA00900CD9 /* ChatRootVideoMineCell.h */,
+				58927D67221C1BAA00900CD9 /* ChatRootOtherCell.m */,
+				58927D68221C1BAA00900CD9 /* ChatRootImageMineCell.xib */,
+				58927D69221C1BAA00900CD9 /* ChatRootSysCell.h */,
+				58927D6A221C1BAA00900CD9 /* ChatRootForwardMineCell.h */,
+				58927D6B221C1BAA00900CD9 /* ChatRootForwardOtherCell.m */,
+				58927D6C221C1BAA00900CD9 /* ChatRootVoiceOtherCell.xib */,
+				58927D6D221C1BAA00900CD9 /* ChatRootVoiceOtherCell.m */,
+				58927D6E221C1BAA00900CD9 /* ChatRootVideoOtherCell.h */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58927D2E221C1B8500900CD9 /* ChatRootUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58927D45221C1B8600900CD9 /* Build configuration list for PBXNativeTarget "ChatRootUI" */;
+			buildPhases = (
+				58927D2B221C1B8500900CD9 /* Sources */,
+				58927D2C221C1B8500900CD9 /* Frameworks */,
+				58927D2D221C1B8500900CD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatRootUI;
+			productName = ChatRootUI;
+			productReference = 58927D2F221C1B8500900CD9 /* ChatRootUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58927D27221C1B8500900CD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.youpin;
+				TargetAttributes = {
+					58927D2E221C1B8500900CD9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 58927D2A221C1B8500900CD9 /* Build configuration list for PBXProject "ChatRootUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58927D26221C1B8500900CD9;
+			productRefGroup = 58927D30221C1B8500900CD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58927D2E221C1B8500900CD9 /* ChatRootUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58927D2D221C1B8500900CD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58927D78221C1BAA00900CD9 /* ChatRootVideoOtherCell.xib in Resources */,
+				58927D3F221C1B8600900CD9 /* LaunchScreen.storyboard in Resources */,
+				58927D3C221C1B8600900CD9 /* Assets.xcassets in Resources */,
+				58927D6F221C1BAA00900CD9 /* ChatRootImageOtherCell.xib in Resources */,
+				58927D81221C1BAA00900CD9 /* ChatRootImageMineCell.xib in Resources */,
+				58927D4C221C1B9700900CD9 /* ChatRootViewController.xib in Resources */,
+				58927D73221C1BAA00900CD9 /* ChatRootOtherCell.xib in Resources */,
+				58927D7A221C1BAA00900CD9 /* ChatRootForwardMineCell.xib in Resources */,
+				58927D7F221C1BAA00900CD9 /* ChatRootMineCell.xib in Resources */,
+				58927D77221C1BAA00900CD9 /* ChatRootVoiceMineCell.xib in Resources */,
+				58927D3A221C1B8500900CD9 /* Main.storyboard in Resources */,
+				58927D70221C1BAA00900CD9 /* ChatRootSysCell.xib in Resources */,
+				58927D76221C1BAA00900CD9 /* ChatRootForwardOtherCell.xib in Resources */,
+				58927D71221C1BAA00900CD9 /* ChatRootVideoMineCell.xib in Resources */,
+				58927D83221C1BAA00900CD9 /* ChatRootVoiceOtherCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58927D2B221C1B8500900CD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58927D84221C1BAA00900CD9 /* ChatRootVoiceOtherCell.m in Sources */,
+				58927D7E221C1BAA00900CD9 /* ChatRootImageOtherCell.m in Sources */,
+				58927D37221C1B8500900CD9 /* ViewController.m in Sources */,
+				58927D7D221C1BAA00900CD9 /* ChatRootImageMineCell.m in Sources */,
+				58927D72221C1BAA00900CD9 /* ChatRootMineCell.m in Sources */,
+				58927D74221C1BAA00900CD9 /* ChatRootVideoMineCell.m in Sources */,
+				58927D75221C1BAA00900CD9 /* ChatRootVoiceMineCell.m in Sources */,
+				58927D82221C1BAA00900CD9 /* ChatRootForwardOtherCell.m in Sources */,
+				58927D42221C1B8600900CD9 /* main.m in Sources */,
+				58927D4B221C1B9700900CD9 /* ChatRootViewController.m in Sources */,
+				58927D80221C1BAA00900CD9 /* ChatRootOtherCell.m in Sources */,
+				58927D7C221C1BAA00900CD9 /* ChatRootVideoOtherCell.m in Sources */,
+				58927D7B221C1BAA00900CD9 /* ChatRootSysCell.m in Sources */,
+				58927D79221C1BAA00900CD9 /* ChatRootForwardMineCell.m in Sources */,
+				58927D34221C1B8500900CD9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58927D38221C1B8500900CD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58927D39221C1B8500900CD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58927D3D221C1B8600900CD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58927D3E221C1B8600900CD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58927D43221C1B8600900CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58927D44221C1B8600900CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58927D46221C1B8600900CD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A62QP363D;
+				INFOPLIST_FILE = ChatRootUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpin.ChatRootUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58927D47221C1B8600900CD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7A62QP363D;
+				INFOPLIST_FILE = ChatRootUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youpin.ChatRootUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58927D2A221C1B8500900CD9 /* Build configuration list for PBXProject "ChatRootUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58927D43221C1B8600900CD9 /* Debug */,
+				58927D44221C1B8600900CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58927D45221C1B8600900CD9 /* Build configuration list for PBXNativeTarget "ChatRootUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58927D46221C1B8600900CD9 /* Debug */,
+				58927D47221C1B8600900CD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58927D27221C1B8500900CD9 /* Project object */;
+}

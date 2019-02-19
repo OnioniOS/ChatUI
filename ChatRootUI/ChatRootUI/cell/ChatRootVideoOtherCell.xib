@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatRootVideoOtherCell" id="KGk-i7-Jjw" customClass="ChatRootVideoOtherCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天 14:50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBr-x5-TWS" customClass="PaddingTimeLabel">
+                        <rect key="frame" x="0.0" y="10" width="375" height="7.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_default_avtar" translatesAutoresizingMaskIntoConstraints="NO" id="7LT-Qh-Lop">
+                        <rect key="frame" x="8" y="22.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Qhi-0r-j99"/>
+                            <constraint firstAttribute="height" constant="40" id="hgA-ZZ-NPa"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLL-0k-XOI" customClass="YSIndexBtn">
+                        <rect key="frame" x="58" y="39.5" width="87" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="87" id="05O-0W-Y61"/>
+                            <constraint firstAttribute="height" constant="150" id="5oJ-Zu-IIw"/>
+                        </constraints>
+                        <connections>
+                            <action selector="didClickImageBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sjd-dm-yUg"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="videoPlay" translatesAutoresizingMaskIntoConstraints="NO" id="HR4-QV-bxA">
+                        <rect key="frame" x="81.5" y="94.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="EH9-A1-Esb"/>
+                            <constraint firstAttribute="width" constant="40" id="uY3-r7-yOB"/>
+                        </constraints>
+                    </imageView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="5ee-sF-HBd">
+                        <rect key="frame" x="91.5" y="104.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="8MD-Yi-XNF"/>
+                            <constraint firstAttribute="height" constant="20" id="Ocr-Bs-nn6"/>
+                        </constraints>
+                    </activityIndicatorView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="呵呵" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="elv-x6-hgT">
+                        <rect key="frame" x="58" y="22.5" width="25" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="UZq-r6-n9a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_sel_no" translatesAutoresizingMaskIntoConstraints="NO" id="hMp-CN-rAC">
+                        <rect key="frame" x="337" y="34" width="17" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="9Dh-N9-j27"/>
+                            <constraint firstAttribute="height" constant="17" id="ZLp-kX-mvQ"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="TLL-0k-XOI" firstAttribute="top" secondItem="elv-x6-hgT" secondAttribute="bottom" constant="3" id="6x3-de-Ti5"/>
+                    <constraint firstItem="HR4-QV-bxA" firstAttribute="centerX" secondItem="TLL-0k-XOI" secondAttribute="centerX" id="7Sk-dS-PNm"/>
+                    <constraint firstItem="elv-x6-hgT" firstAttribute="top" secondItem="7LT-Qh-Lop" secondAttribute="top" id="CgF-z5-HeC"/>
+                    <constraint firstAttribute="trailing" secondItem="hMp-CN-rAC" secondAttribute="trailing" constant="21" id="IX2-37-cdI"/>
+                    <constraint firstAttribute="trailing" secondItem="jBr-x5-TWS" secondAttribute="trailing" id="IXO-us-14l"/>
+                    <constraint firstItem="HR4-QV-bxA" firstAttribute="centerY" secondItem="TLL-0k-XOI" secondAttribute="centerY" id="LA6-57-UoF"/>
+                    <constraint firstItem="5ee-sF-HBd" firstAttribute="centerX" secondItem="TLL-0k-XOI" secondAttribute="centerX" id="ReV-EC-An1"/>
+                    <constraint firstItem="jBr-x5-TWS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Tql-85-f5R"/>
+                    <constraint firstAttribute="bottom" secondItem="TLL-0k-XOI" secondAttribute="bottom" constant="10" id="cQp-Zl-n61"/>
+                    <constraint firstItem="TLL-0k-XOI" firstAttribute="leading" secondItem="7LT-Qh-Lop" secondAttribute="trailing" constant="10" id="eyk-DA-cS7"/>
+                    <constraint firstItem="7LT-Qh-Lop" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="gAI-Pi-egL"/>
+                    <constraint firstItem="hMp-CN-rAC" firstAttribute="centerY" secondItem="7LT-Qh-Lop" secondAttribute="centerY" id="jXf-KY-FS3"/>
+                    <constraint firstItem="elv-x6-hgT" firstAttribute="leading" secondItem="7LT-Qh-Lop" secondAttribute="trailing" constant="10" id="tEY-6d-cL2"/>
+                    <constraint firstItem="5ee-sF-HBd" firstAttribute="centerY" secondItem="TLL-0k-XOI" secondAttribute="centerY" id="w3I-Eh-3U9"/>
+                    <constraint firstItem="7LT-Qh-Lop" firstAttribute="top" secondItem="jBr-x5-TWS" secondAttribute="bottom" constant="5" id="whF-g3-5F6"/>
+                    <constraint firstItem="jBr-x5-TWS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="whY-ZC-3Yx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="headImageV" destination="7LT-Qh-Lop" id="mNi-YH-PbM"/>
+                <outlet property="height" destination="5oJ-Zu-IIw" id="Djc-lK-AyM"/>
+                <outlet property="imageBtn" destination="TLL-0k-XOI" id="84x-Kk-YTJ"/>
+                <outlet property="imageBtnTop" destination="6x3-de-Ti5" id="b2D-z1-yql"/>
+                <outlet property="nickNameHeight" destination="UZq-r6-n9a" id="pC7-N6-ens"/>
+                <outlet property="nickNameL" destination="elv-x6-hgT" id="2eM-kg-b00"/>
+                <outlet property="playImageV" destination="HR4-QV-bxA" id="gTQ-Ux-62G"/>
+                <outlet property="progressV" destination="5ee-sF-HBd" id="zuH-fX-1XA"/>
+                <outlet property="selectImageV" destination="hMp-CN-rAC" id="BQe-NQ-ZUh"/>
+                <outlet property="timeL" destination="jBr-x5-TWS" id="jAk-ke-6kr"/>
+                <outlet property="timeTop" destination="Tql-85-f5R" id="z0R-tu-X4c"/>
+                <outlet property="width" destination="05O-0W-Y61" id="YeY-Gg-RDq"/>
+            </connections>
+            <point key="canvasLocation" x="-578" y="33"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_default_avtar" width="64" height="64"/>
+        <image name="icon_sel_no" width="17" height="17"/>
+        <image name="videoPlay" width="40" height="40"/>
+    </resources>
+</document>

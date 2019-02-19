@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatRootVoiceOtherCell" rowHeight="97" id="KGk-i7-Jjw" customClass="ChatRootVoiceOtherCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="96.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天 14:50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s7w-YV-PYG" customClass="PaddingTimeLabel">
+                        <rect key="frame" x="0.0" y="10" width="375" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_default_avtar" translatesAutoresizingMaskIntoConstraints="NO" id="dZA-Ci-bPg">
+                        <rect key="frame" x="8" y="29.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="XfM-kC-eoI"/>
+                            <constraint firstAttribute="width" constant="40" id="cEB-Da-dL4"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="呵呵" textAlignment="natural" lineBreakMode="characterWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Vh-cH-iww">
+                        <rect key="frame" x="58" y="29.5" width="25" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14" id="iTb-2x-Js8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.61960784310000006" green="0.61960784310000006" blue="0.61960784310000006" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlL-UY-Mag" customClass="YSIndexBtn">
+                        <rect key="frame" x="58" y="46.5" width="160" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="VqN-H6-rmT"/>
+                            <constraint firstAttribute="height" constant="40" id="iF2-sP-rBr"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="chatRoot_paopaoLeft"/>
+                        <connections>
+                            <action selector="paopaoAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FVD-W0-hN5"/>
+                        </connections>
+                    </button>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_sel_no" translatesAutoresizingMaskIntoConstraints="NO" id="U92-xQ-9zd">
+                        <rect key="frame" x="341" y="41" width="17" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="o1D-zz-JxZ"/>
+                            <constraint firstAttribute="height" constant="17" id="qtl-BZ-awQ"/>
+                        </constraints>
+                    </imageView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Cmk-f6-qMz">
+                        <rect key="frame" x="227" y="56.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="9Ax-qL-YgG"/>
+                            <constraint firstAttribute="width" constant="20" id="hDy-Ia-dod"/>
+                        </constraints>
+                    </activityIndicatorView>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LDx-e9-LrQ">
+                        <rect key="frame" x="227" y="55.5" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="cW1-iX-2NW"/>
+                            <constraint firstAttribute="height" constant="22" id="o4R-Vp-oRe"/>
+                        </constraints>
+                        <state key="normal" image="sendMsgFaile"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="66" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DhT-jb-0L0">
+                        <rect key="frame" x="188" y="53.5" width="30" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="26" id="79l-bP-HxX"/>
+                            <constraint firstAttribute="width" constant="30" id="eqT-HZ-g68"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="s7w-YV-PYG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="5RT-hS-67M"/>
+                    <constraint firstItem="DhT-jb-0L0" firstAttribute="centerY" secondItem="dlL-UY-Mag" secondAttribute="centerY" id="645-26-Ntr"/>
+                    <constraint firstAttribute="bottom" secondItem="dlL-UY-Mag" secondAttribute="bottom" constant="10" id="Ak3-Gv-u7s"/>
+                    <constraint firstAttribute="trailing" secondItem="U92-xQ-9zd" secondAttribute="trailing" constant="17" id="B1b-su-w2A"/>
+                    <constraint firstItem="dlL-UY-Mag" firstAttribute="top" secondItem="0Vh-cH-iww" secondAttribute="bottom" constant="3" id="HlP-SE-urL"/>
+                    <constraint firstItem="LDx-e9-LrQ" firstAttribute="centerY" secondItem="dlL-UY-Mag" secondAttribute="centerY" id="IfE-7y-XZO"/>
+                    <constraint firstItem="LDx-e9-LrQ" firstAttribute="leading" secondItem="DhT-jb-0L0" secondAttribute="trailing" constant="9" id="QUq-RZ-U75"/>
+                    <constraint firstItem="dlL-UY-Mag" firstAttribute="leading" secondItem="dZA-Ci-bPg" secondAttribute="trailing" constant="10" id="U9V-Sq-yX1"/>
+                    <constraint firstItem="Cmk-f6-qMz" firstAttribute="centerY" secondItem="dlL-UY-Mag" secondAttribute="centerY" id="XMU-bc-nd8"/>
+                    <constraint firstItem="dZA-Ci-bPg" firstAttribute="top" secondItem="s7w-YV-PYG" secondAttribute="bottom" constant="5" id="YNs-uJ-G7q"/>
+                    <constraint firstItem="s7w-YV-PYG" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ZPp-g8-3mr"/>
+                    <constraint firstItem="dZA-Ci-bPg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="ZfN-Nc-sCg"/>
+                    <constraint firstItem="0Vh-cH-iww" firstAttribute="top" secondItem="dZA-Ci-bPg" secondAttribute="top" id="aqt-xG-fzg"/>
+                    <constraint firstItem="Cmk-f6-qMz" firstAttribute="leading" secondItem="dlL-UY-Mag" secondAttribute="trailing" constant="9" id="bM0-te-JdB"/>
+                    <constraint firstAttribute="trailing" secondItem="s7w-YV-PYG" secondAttribute="trailing" id="c3p-Ke-iX1"/>
+                    <constraint firstItem="0Vh-cH-iww" firstAttribute="leading" secondItem="dZA-Ci-bPg" secondAttribute="trailing" constant="10" id="gTm-GJ-35h"/>
+                    <constraint firstItem="U92-xQ-9zd" firstAttribute="centerY" secondItem="dZA-Ci-bPg" secondAttribute="centerY" id="pZz-Jw-07E"/>
+                    <constraint firstItem="LDx-e9-LrQ" firstAttribute="leading" secondItem="dlL-UY-Mag" secondAttribute="trailing" constant="9" id="v0h-xk-dOd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="headImageV" destination="dZA-Ci-bPg" id="suL-OW-UIB"/>
+                <outlet property="msgFaildAlertBtn" destination="LDx-e9-LrQ" id="YQR-DN-wxB"/>
+                <outlet property="nickNameHeight" destination="iTb-2x-Js8" id="qHN-V4-9gL"/>
+                <outlet property="nickNameL" destination="0Vh-cH-iww" id="YRa-yB-7gP"/>
+                <outlet property="paopaoBtn" destination="dlL-UY-Mag" id="Xgf-5v-yNr"/>
+                <outlet property="paopaoTop" destination="HlP-SE-urL" id="aBH-p8-ZJR"/>
+                <outlet property="paopaoWidth" destination="VqN-H6-rmT" id="8rW-hc-fxL"/>
+                <outlet property="progressV" destination="Cmk-f6-qMz" id="0OT-td-Yr8"/>
+                <outlet property="secondL" destination="DhT-jb-0L0" id="BRK-if-idW"/>
+                <outlet property="secondWidth" destination="eqT-HZ-g68" id="lVv-W4-Ujr"/>
+                <outlet property="selectImageV" destination="U92-xQ-9zd" id="wu9-OO-bvA"/>
+                <outlet property="timeL" destination="s7w-YV-PYG" id="kVE-Ba-dHA"/>
+                <outlet property="timeTop" destination="5RT-hS-67M" id="4NM-gd-Dqz"/>
+            </connections>
+            <point key="canvasLocation" x="-842" y="-44"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chatRoot_paopaoLeft" width="13" height="32"/>
+        <image name="icon_default_avtar" width="64" height="64"/>
+        <image name="icon_sel_no" width="17" height="17"/>
+        <image name="sendMsgFaile" width="22" height="22"/>
+    </resources>
+</document>

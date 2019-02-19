@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatRootVoiceMineCell" rowHeight="94" id="KGk-i7-Jjw" customClass="ChatRootVoiceMineCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="94"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="93.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天 14:50" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P66-h6-Ka2" customClass="PaddingTimeLabel">
+                        <rect key="frame" x="0.0" y="10" width="375" height="28.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_default_avtar" translatesAutoresizingMaskIntoConstraints="NO" id="8Gt-dV-F4D">
+                        <rect key="frame" x="287" y="43.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="bGl-wm-p14"/>
+                            <constraint firstAttribute="height" constant="40" id="tN7-Uf-1ZK"/>
+                        </constraints>
+                    </imageView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_sel_no" translatesAutoresizingMaskIntoConstraints="NO" id="hg8-8g-iNg">
+                        <rect key="frame" x="341" y="55" width="17" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="17" id="R9v-KX-kLG"/>
+                            <constraint firstAttribute="height" constant="17" id="eSb-n6-yqk"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NPb-FM-p4r" customClass="YSIndexBtn">
+                        <rect key="frame" x="147" y="43.5" width="135" height="40"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="135" id="5jL-ql-qEC"/>
+                            <constraint firstAttribute="height" constant="40" id="Ygi-Vl-v4f"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <state key="normal" backgroundImage="chatRoot_paopaoRight"/>
+                        <connections>
+                            <action selector="paopaoAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="obi-GG-95k"/>
+                        </connections>
+                    </button>
+                    <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w68-El-YWi">
+                        <rect key="frame" x="116" y="52.5" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="46j-z2-7El"/>
+                            <constraint firstAttribute="width" constant="22" id="GZc-uD-GPU"/>
+                        </constraints>
+                        <state key="normal" image="sendMsgFaile"/>
+                    </button>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rbK-Kw-j8r">
+                        <rect key="frame" x="117" y="53.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="ahi-QI-dLp"/>
+                            <constraint firstAttribute="width" constant="20" id="zhL-ik-WHv"/>
+                        </constraints>
+                    </activityIndicatorView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="66" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4fT-Nr-mYF">
+                        <rect key="frame" x="147" y="50.5" width="30" height="26"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="9sQ-OD-eTJ"/>
+                            <constraint firstAttribute="height" constant="26" id="EKz-wp-Ne6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.61960784313725492" green="0.61960784313725492" blue="0.61960784313725492" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="NPb-FM-p4r" firstAttribute="leading" secondItem="rbK-Kw-j8r" secondAttribute="trailing" constant="10" id="4Mx-O4-NbD"/>
+                    <constraint firstItem="w68-El-YWi" firstAttribute="centerY" secondItem="NPb-FM-p4r" secondAttribute="centerY" id="5CN-nt-Mqv"/>
+                    <constraint firstItem="8Gt-dV-F4D" firstAttribute="leading" secondItem="NPb-FM-p4r" secondAttribute="trailing" constant="5" id="5O1-Qz-1Qf"/>
+                    <constraint firstItem="4fT-Nr-mYF" firstAttribute="centerY" secondItem="NPb-FM-p4r" secondAttribute="centerY" id="7Fb-7F-whw"/>
+                    <constraint firstItem="NPb-FM-p4r" firstAttribute="leading" secondItem="w68-El-YWi" secondAttribute="trailing" constant="9" id="8TW-oF-RYH"/>
+                    <constraint firstAttribute="trailing" secondItem="8Gt-dV-F4D" secondAttribute="trailing" constant="48" id="Hh8-nb-9c9"/>
+                    <constraint firstItem="P66-h6-Ka2" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="UG3-UD-QB1"/>
+                    <constraint firstItem="P66-h6-Ka2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="WxT-nc-DTc"/>
+                    <constraint firstAttribute="trailing" secondItem="hg8-8g-iNg" secondAttribute="trailing" constant="17" id="bhU-Tj-QGI"/>
+                    <constraint firstAttribute="bottom" secondItem="NPb-FM-p4r" secondAttribute="bottom" constant="10" id="gU7-vL-12h"/>
+                    <constraint firstItem="8Gt-dV-F4D" firstAttribute="top" secondItem="P66-h6-Ka2" secondAttribute="bottom" constant="5" id="gjC-G9-54g"/>
+                    <constraint firstItem="NPb-FM-p4r" firstAttribute="top" secondItem="P66-h6-Ka2" secondAttribute="bottom" constant="5" id="hNw-Pl-lef"/>
+                    <constraint firstAttribute="trailing" secondItem="P66-h6-Ka2" secondAttribute="trailing" id="hxa-5k-AUB"/>
+                    <constraint firstItem="hg8-8g-iNg" firstAttribute="centerY" secondItem="8Gt-dV-F4D" secondAttribute="centerY" id="kwD-Bt-FQO"/>
+                    <constraint firstItem="rbK-Kw-j8r" firstAttribute="centerY" secondItem="NPb-FM-p4r" secondAttribute="centerY" id="l8U-Ky-tai"/>
+                    <constraint firstItem="4fT-Nr-mYF" firstAttribute="leading" secondItem="NPb-FM-p4r" secondAttribute="leading" id="tkW-xG-A2E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="headImageV" destination="8Gt-dV-F4D" id="0l7-fc-jmx"/>
+                <outlet property="headRight" destination="Hh8-nb-9c9" id="p6p-eE-Pmd"/>
+                <outlet property="paopaoBtn" destination="NPb-FM-p4r" id="b7i-ZT-jzQ"/>
+                <outlet property="paopaoWidth" destination="5jL-ql-qEC" id="Xqa-vq-pK9"/>
+                <outlet property="progressV" destination="rbK-Kw-j8r" id="XhB-Bs-2YN"/>
+                <outlet property="secondL" destination="4fT-Nr-mYF" id="F6S-iA-sez"/>
+                <outlet property="secondWidth" destination="9sQ-OD-eTJ" id="6Hy-qb-hSZ"/>
+                <outlet property="selectImageV" destination="hg8-8g-iNg" id="T8Y-bw-wwB"/>
+                <outlet property="sendFaildBtn" destination="w68-El-YWi" id="I8P-pu-3ic"/>
+                <outlet property="timeL" destination="P66-h6-Ka2" id="lNb-1J-1TC"/>
+                <outlet property="timeTop" destination="UG3-UD-QB1" id="rjq-BP-Xul"/>
+            </connections>
+            <point key="canvasLocation" x="-513" y="95"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chatRoot_paopaoRight" width="13" height="32"/>
+        <image name="icon_default_avtar" width="64" height="64"/>
+        <image name="icon_sel_no" width="17" height="17"/>
+        <image name="sendMsgFaile" width="22" height="22"/>
+    </resources>
+</document>
